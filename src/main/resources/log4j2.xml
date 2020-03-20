@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="warn">
+<Appenders>
+<Console name="console" target="SYSTEM_OUT">
+</Console>
+
+
+</Appenders>
+<Loggers>
+<Root level="debug">
+<AppenderRef ref="console" level ="debug"/>
+<AppenderRef ref="console" level="debug"/>
+</Root>
+</Loggers>
+</Configuration>
